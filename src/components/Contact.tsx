@@ -1,5 +1,6 @@
+import { MdArrowOutward, MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
-import { MdArrowOutward } from "react-icons/md";
+
 const Contact = () => {
   return (
     <div className="contact-section section-container" id="contact">

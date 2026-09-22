@@ -5,10 +5,22 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+    title: "AI Website Builder",
+    // category: "Low-Code Platform",
+    tools: "TypeScript, Better Auth, Prisma, shadcn/ui",
+    image: "/images/Solidx.png",
+  },
+  {
     title: "AI Resume Builder",
     category: "Low-Code Platform",
     tools: "React.js, tailwind css, shadcn/ui ",
     image: "/images/Solidx.png",
+  },
+   {
+    title: "De-Centralised File Upload System",
+    // category: "Import-Export Automation",
+    tools: "React.js, Solidity, MetaMask",
+    image: "/images/bond.png",
   },
   {
     title: "Real time Chat Application",
@@ -16,24 +28,19 @@ const projects = [
     tools: "React.js, Node.js, Express.js",
     image: "/images/radix.png",
   },
-  {
-    title: "De-Centralised File Upload System",
-    // category: "Import-Export Automation",
-    tools: "React.js, Solidity, MetaMask",
-    image: "/images/bond.png",
-  },
-  {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
-  },
+ 
+  // {
+  //   title: "Sapphire",
+  //   category: "CRM Platform",
+  //   tools: "AngularJS, NestJS, PostgreSQL",
+  //   image: "/images/sapphire.png",
+  // },
+  // {
+  //   title: "Mpro",
+  //   category: "Insurance Platform",
+  //   tools: "React.js, Node.js, Microservices",
+  //   image: "/images/Maxlife.png",
+  // },
 ];
 
 const Work = () => {
